@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/640346e57c.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+    <div class="intro-overlay">
+        <div class="intro-text">
+            <span>Hello,</span>
+            <span>I'm</span>
+            <span>Kalp</span>
+            <span>Joshi</span>
+        </div>
+    </div>
+    <div class="gradient-bg"></div>
+<div id="header">
+    <div class="container">
+        <nav> 
+            <div class="logo">
+                <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Background circle -->
+                    <circle cx="50" cy="50" r="40" fill="#262626"/>
+                    
+                    <!-- K letter with code bracket styling -->
+                    <path d="M35 25 L35 75 M35 50 L65 25 M35 50 L65 75" 
+                          stroke="#ff004f" 
+                          stroke-width="6" 
+                          stroke-linecap="round"
+                          fill="none"/>
+                    
+                    <!-- J letter with code bracket styling -->
+                    <path d="M75 25 L75 65 Q75 75 65 75" 
+                          stroke="#ffffff" 
+                          stroke-width="6" 
+                          stroke-linecap="round"
+                          fill="none"/>
+                          
+                    <!-- Decorative code elements -->
+                    <path d="M95 40 L110 50 L95 60" 
+                          stroke="#ff004f" 
+                          stroke-width="4" 
+                          stroke-linecap="round"
+                          fill="none"/>
+                    
+                    <path d="M120 40 L135 50 L120 60" 
+                          stroke="#ff004f" 
+                          stroke-width="4" 
+                          stroke-linecap="round"
+                          fill="none"
+                          opacity="0.5"/>
+                          
+                    <path d="M145 40 L160 50 L145 60" 
+                          stroke="#ff004f" 
+                          stroke-width="4" 
+                          stroke-linecap="round"
+                          fill="none"
+                          opacity="0.3"/>
+                </svg>
+            </div>
+            <ul>
+                <li> <a href = "#header">Home</a></li>
+                <li> <a href = "#about">About</a></li>
+                <li> <a href = "#services">Services</a></li>
+                <li> <a href = "#portfolio">Portfolio</a></li>
+                <li> <a href = "#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-row">
+            <div class="header-col-1">
+                <p class="tagline">Innovating the Digital Landscape</p>
+                <h1>Hello, I'm <span class="highlight">Kalp Joshi</span></h1>
+                <h2 class="typewriter">I create <span id="dynamic-text"></span></h2>
+                <p class="description">Transforming ideas into elegant, efficient solutions. 
+                    <br>Based in Canada, impacting globally.</p>
+                <a href="#portfolio" class="cta-button">Explore My Work</a>
+            </div>
+            <div class="header-col-2">
+                <img src="Images/IMG_8828.jpg" alt="Kalp Joshi - Computer Scientist">
+            </div>
+        </div>
+</div>
+<!-- -------------------------about----------------------------- -->
+<div id="about">
+    <div class="container">
+        <h1 class="sub-title">About Me</h1>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="Images/IMG_2096.jpg" alt="Kalp Joshi">
+                </div>
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Kalp Joshi, a passionate Computer Scientist based in Canada. With a keen interest in web development and digital art, I blend creativity with technical expertise to craft innovative solutions.</p>
+                <div class="skills-container">
+                    <div class="skill-card" style="--rotate: 5deg;">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skill-card" style="--rotate: -5deg;">
+                        <i class="fab fa-java"></i>
+                        <h3>Java Programming</h3>
+                        <p>Backend Development</p>
+                    </div>
+                    <div class="skill-card" style="--rotate: 5deg;">
+                        <i class="fas fa-palette"></i>
+                        <h3>Digital Art</h3>
+                        <p>Illustrations & Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------------services-------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="service-card" data-tilt>
+                <div class="service-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <h2>Web Design</h2>
+                <p>Creating responsive and visually appealing websites using modern technologies and best practices.</p>
+                <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card" data-tilt>
+                <div class="service-icon">
+                    <i class="fa-solid fa-palette"></i>
+                </div>
+                <h2>Art Requests</h2>
+                <p>Crafting unique digital illustrations and artwork tailored to your specific needs and vision.</p>
+                <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card" data-tilt>
+                <div class="service-icon">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+                <h2>App Development</h2>
+                <p>Developing innovative and user-friendly mobile applications for iOS and Android platforms.</p>
+                <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- ---------------------portfolio----------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/Pinterest-SS.png">
+                <div class="layer">
+                    <h3>Pinterest Homepage</h3>
+                    <p>A replica of the pinterest homepage with my own drawings</p>
+                    <a href="C:\Users\kalpj\OneDrive\Personal-Projects\MyProjects\Pinterest\index.html"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Screenshot 2024-11-06 121137.png">
+                <div class="layer">
+                    <h3>Master card</h3>
+                    <p>A custom created master card that rotates</p>
+                    <a href="C:\Users\kalpj\OneDrive\Personal-Projects\MyProjects\Mastercard\index.html"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Screenshot 2024-11-06 121305.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>A custom made weather app with working API</p>
+                    <a href="C:\Users\kalpj\OneDrive\Personal-Projects\MyProjects\Weather\index.html"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Screenshot 2024-11-06 120921.png">
+                <div class="layer">
+                    <h3>Own Anime website</h3>
+                    <p>A custom made website to check anime ratings and create list</p>
+                    <a href="C:\Users\kalpj\OneDrive\Personal-Projects\MyProjects\Anime website\index.html"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href = "#" class = "btn"> See More</a>
+    </div>
+</div>
+<!-------------------------------------------------contact------------------------------------------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i></i>kalpjoshi2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1 204 228 9717</p>
+                <div class="social-icons">
+                    <a href = "https://www.instagram.com/kalpkj/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href = "https://www.linkedin.com/in/kalp-joshi-28559923b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href = "https://github.com/KalpKJ"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name = "Name" placeholder="Your Name"required>
+                    <input type="email" name = "email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows = "6" placeholder="Your Message"></textarea>
+                    <button type = "submit" class = "btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Crafted with <i class="fa-solid fa-heart"></i> by <strong>Kalp Joshi</strong></p>
+        <p>© 2024 Kalp Joshi. All rights reserved.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const introOverlay = document.querySelector('.intro-overlay');
+        setTimeout(() => {
+            introOverlay.style.display = 'none';
+        }, 4000); // Hide the overlay after 4 seconds
+    });
+
+
+
+
+
+    const texts = ["innovative web solutions", "efficient algorithms", "user-centric designs", "scalable applications"];
+    let count = 0;
+    let index = 0;
+    let currentText = '';
+    let letter = '';
+
+    (function type() {
+        if (count === texts.length) {
+            count = 0;
+        }
+        currentText = texts[count];
+        letter = currentText.slice(0, ++index);
+
+        document.querySelector('#dynamic-text').textContent = letter;
+        if (letter.length === currentText.length) {
+            count++;
+            index = 0;
+            setTimeout(type, 1500);
+        } else {
+            setTimeout(type, 100);
+        }
+    })();
+
+
+    
+    
+</script>
+
+
+</body>
+</html>
